@@ -31,7 +31,4 @@ public class CurrentAccount extends BankAccount {
             throw new Exception("Valid License can not be generated");
     }
 
-    public String getTradeLicenseId() {
-        return tradeLicenseId;
-    }
 }
